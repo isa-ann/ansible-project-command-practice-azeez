@@ -1,0 +1,57 @@
+ec2-user@ip-172-31-30-107 ~]$ history
+    1  ssh-keygen -t rsa -b 2048
+    2  pwd
+    3  cd .ssh
+    4  pwd
+    5  ls
+    6  cat id_rsa.pub
+    7  cd ~
+    8  pwd
+    9  ssh 172.31.33.175
+   10  ssh 172.31.44.54
+   11  ssh 172.31.39.205
+   12  sudo yum update -y
+   13  sudo amazon-linux-extras install ansible2 -y
+   14  ansible --version
+   15  sudo vi inventory
+   16  ls
+   17  cat inventory
+   18  sudo vi deploy-techmax.yml
+   19  ls
+   20  cat deploy-techmax.yml
+   21  ansible all --key-file ~/.ssh/id_rsa -i inventory -m ping -u ec2-user    
+   22  sudo vi ansible.cfg
+   23  ls
+   24  cat ansible.cfg
+   25  ansible-playbook deploy-techmax.yml
+   26  ls
+   27  git add -A
+   28  exit
+   29  git add -A
+   30  sudo yum install git
+   31  sudo apt install git
+   32  git init
+   33  git add .
+   34  git commit -m " added files"
+   35  git push
+   36  git remote add origin https://github.com/isa-ann/ansible-project-command-practice-azeez.git
+   37  git push -u origin main
+   38  git checkout -b main
+   39  git add .
+   40  git commit -m "Your commit message"
+   41  git push -u origin main
+   42  git push -u origin <your-local-branch-name>:main
+   43  exit
+   44  ls
+   45  history
+   46  history > commands.txt
+   47  ls
+   48  git init
+   49  git add commands.txt
+   50  git commit -m "Add commands.txt file"
+   51  git remote add origin https://github.com/isa-ann/ansible-project-command-practice-azeez.git
+   52  git push -u origin main
+   53  git remote add origin https://github.com/isa-ann/ansible-project-command-practice-azeez.git
+   54  git push -u origin main
+   55  history
+[ec2-user@ip-172-31-30-107 ~]$
