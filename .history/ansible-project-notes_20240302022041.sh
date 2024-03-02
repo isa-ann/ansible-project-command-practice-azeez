@@ -26,12 +26,12 @@
     sudo amazon-linux-extras install ansible2 -y
 
 9. create inventory file
-# the command is sudo vi inventory : 172.31.33.175, 172.31.44.54 , 172.31.39.205 
+# the command is sudo vi inven
 10. create playbook
 
 11. ansible all --key-file ~/.ssh/id_rsa -i inventory -m ping -u ec2-user
 
-12. creat ansible.cfg file #type on your ansible master terminal sudo vi ansible.cfg
+12. creat ansible.cfg file 
 [defaults]
 remote_user = ec2-user 
 inventory = inventory 

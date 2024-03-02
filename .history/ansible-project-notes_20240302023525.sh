@@ -31,7 +31,7 @@
 
 11. ansible all --key-file ~/.ssh/id_rsa -i inventory -m ping -u ec2-user
 
-12. creat ansible.cfg file #type on your ansible master terminal sudo vi ansible.cfg
+12. creat ansible.cfg file sudo
 [defaults]
 remote_user = ec2-user 
 inventory = inventory 
